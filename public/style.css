@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Rufina:wght@700&family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+    background-color: #f3e4e1;
+    color: #2f2926;
+    margin: 0;
+    font-family: "PT serif";
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.top_foliage {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0;
+}
+
+.bottom_foliage_about {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bottom_foliage_menu {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+.navicon {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    z-index: 5;
+}
+
+h1 {
+
+    font-family: 'PT Serif', serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+.smallFont {
+    font-size: smaller;
+}
+
+.btn {
+    background-color: #2f2926;
+    color: #fff;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: bold;
+    width: 248px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+/*INDEX*/
+
+.landingwrap {
+    background-color: #38846d;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.leftFoliage {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    z-index: 1;
+}
+
+.rightFoliage {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    z-index: 5;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+
+}
+
+.fullLogo {
+    height: 100vh;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText {
+    font-family: "Rufina";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.droneText {
+    font-family: "Work Sans";
+    font-size: 9px;
+
+}
+
+/* MENU*/
+.menueWrap {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.cart {
+    padding: 0px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 10;
+}
+
+.incNr {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 15;
+    background: #e5674e;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.plusBtn {
+    background-color: #2f2926;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.coffeeType {
+    width: 200px;
+    text-align: left;
+}
+
+h1 {
+
+    font-family: 'PT Serif', serif;
+    font-size: 42px;
+}
+
+.menuItem {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+
+}
+
+
+
+
+/*ORDER */
+
+.orderWrap {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: "PT Serif";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.orders {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coffeeOrders {
+    display: flex;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coffee {
+    width: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.orderCoffeeName {
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.between>hr {
+    border-bottom: 1px dotted #2f2926;
+}
+
+.amountNr {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orderCoffeePrice {
+    font-family: "Work Sans";
+    font-size: 12px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+
+
+.totalOrder {
+    display: flex;
+    width: 100%;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.totalTextInkl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.totalText {
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+}
+
+.inkl {
+    font-family: "Work Sans";
+    font-size: 12px;
+    text-align: left;
+}
+
+#totalAmount {
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 23px;
+    align-items: right;
+}
+
+
+
+
+
+/*STATUS*/
+
+#statusWrap {
+    background-color: #e5674e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    color: #fff;
+}
+
+
+.orderNr {
+
+    font-family: "Work Sans";
+    font-size: 16;
+}
+
+.statusTxt {
+
+    width: 100%;
+    font-family: "PT Serif";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countdown {
+    font-family: "Work Sans";
+    font-size: 22px;
+    text-align: center;
+}
+
+.statusBtn {
+    background-color: #fff;
+    color: #2f2926;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 0px;
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/*ABOUT*/
+
+.aboutWrap {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.aboutWrap>h1 {
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.boldText {
+    font-family: "Work Sans";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.regularText {
+    font-family: "Work Sans";
+    font-size: 12px;
+}
+
+
+
+/*PROFILE*/
+
+.profileWrap {
+    background-color: #2f2926;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.profileWrap>hr {
+    width: 80%;
+}
+
+/*NAV*/
+.navWrap {
+    background-color: #2f2926;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "PT Serif";
+
+}
+
+.closeBtn {
+    background-color: #fff;
+    color: #2f2926;
+    height: 48px;
+    width: 48px;
+    font-size: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    text-align: center;
+    text-justify: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+}
+
+/*SIGN-UP*/
+
+.signupWrap {
+    background-color: #f3e4e1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.vlkmn>h1 {
+    font-family: "PT Serif";
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.skapaKonto {
+    font-family: "Work Sans";
+    font-size: 16;
+}
+
+signupInp {
+    font-family: "Work Sans";
+    font-size: 12;
+}
+
+.fillIn {
+    background-color: transparent;
+    border-color: #2f2926;
+    border-radius: 5px;
+}
+
+.checkbox-round {
+    width: 1.2em;
+    height: 1.2em;
+    background-color: transparent;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #2f2926;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #2f2926;
+}
